@@ -1,0 +1,115 @@
+body {
+    background-color: #e68a00;
+}
+
+img {
+
+    border-radius: 50%;
+
+    width: 90px;
+    
+    height: 90px;
+    
+    float: left;
+
+    padding: 10px 10px;
+
+    
+    }
+
+#idCard {
+    
+    border: 5px solid black;
+
+    border-radius: 50px;
+
+    align-content: left;
+    
+    height: 20em;
+    
+    width: 45em;
+
+    margin: auto;
+
+    background-color: #ffffff;
+
+    color: black;
+    
+    }
+
+.center {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+/* style h1 tag */
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3em;
+}
+
+#postAge {
+    font-size: 1em;
+    font-family: 'Oswald', sans-serif;
+    width: 180px;
+    padding-left: 20px;
+    clear: left;
+}
+
+#postPhoneNumber {
+    font-size: 1em;
+    font-family: 'Oswald', sans-serif;
+    width: 180px;
+    padding-left: 20px;
+    clear: left;
+}
+
+#postAddress {
+    font-size: 1em;
+    font-family: 'Oswald', sans-serif;
+    width: 380px;
+    padding-left: 20px;
+    clear: left;
+}
+
+#postFullName {
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+/* button style */
+button {
+    background-color: #008000;
+    -moz-border-radius:28px;
+    -webkit-border-radius: 28px;
+    border-radius: 28px;
+    border: 1px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    height: 50px;
+    width: 150px;
+    margin: 10px 870px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2f6627
+}
+
+button:hover {
+    background-color:#5cbf2a;
+}
+button:active {
+    position:relative;
+    top:1px;
+}
+
+/* flexbox class used on parent element */
+.flex{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
